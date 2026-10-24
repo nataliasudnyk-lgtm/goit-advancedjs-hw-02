@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise Generator</title>
+    <script type="module" crossorigin src="/vanilla-app-template/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-UYtMXE9T.css">
+  </head>
+  <body>
+    <main>
+      <a href="./index.html">Go back</a>
+
+      <div class="container">
+        <h1>Promise Generator</h1>
+
+        <form class="form">
+          <label>
+            Delay (ms)
+            <input type="number" name="delay" min="0" required />
+          </label>
+
+          <fieldset>
+            <legend>State</legend>
+
+            <label>
+              <input type="radio" name="state" value="fulfilled" required />
+              Fulfilled
+            </label>
+
+            <label>
+              <input type="radio" name="state" value="rejected" required />
+              Rejected
+            </label>
+          </fieldset>
+
+          <button type="submit">Create notification</button>
+        </form>
+      </div>
+    </main>
+
+  </body>
+</html>
